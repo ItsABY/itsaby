@@ -151,16 +151,26 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+.navbar img{
+    height:40px;
+    padding-right:5px;
+}
+
+.navbar img:hover {
+    color: #7b909a;
+    white-space: nowrap;
+    transition: 0.3s;
+}
 .navbar a, .navbar a:focus {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0 10px 30px;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  color: #7b909a;
-  white-space: nowrap;
-  transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #7b909a;
+    white-space: nowrap;
+    transition: 0.3s;
 }
 
 .navbar a i, .navbar a:focus i {
@@ -170,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #009cea;
+    color: #009cea;
 }
 
 .navbar .dropdown ul {
@@ -1325,7 +1335,9 @@ section {
   background: #009cea;
   color: #fff;
 }
-
+.contact .info .email p{
+    /*color:blue;*/
+}
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #009cea;
   color: #fff;
